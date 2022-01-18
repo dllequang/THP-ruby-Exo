@@ -1,4 +1,7 @@
-puts "Bonjour, c'est quoi ton blase ?"
+puts "Donne moi un nombre entier"
 print "> "
-user_name = gets.chomp
-puts "Bonjour " + user_name
+number = gets.chomp.to_i
+while number >= 0
+  puts number
+  number = number - 1
+end
